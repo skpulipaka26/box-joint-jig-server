@@ -6,8 +6,7 @@ import cors from 'cors';
 import admin from 'firebase-admin';
 import winston from 'winston';
 import expressWinston from 'express-winston';
-
-const firebaseConfig = require('../firebase_config.json');
+import firebaseConfig from '../firebase_config.json';
 
 import indexRouter from './routes/index';
 import motorRouter from './routes/motor';

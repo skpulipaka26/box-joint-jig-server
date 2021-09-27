@@ -96,6 +96,7 @@ export function calculateAllSteps(
     const steps = [];
     let totalLengthCovered = 0;
 
+    // setup for the first cut
     steps.push(getMotorSteps(bladeThickness));
 
     if (offset) {
